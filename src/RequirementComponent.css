@@ -1,0 +1,103 @@
+
+.requirement-card{
+    /* width: 70%; */
+    /* margin:auto; */
+    margin-top: 0px;
+    min-height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    justify-content: space-between;
+    font-family: 'Dosis', sans-serif;
+    background-color:white;
+    margin-bottom:0;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+
+
+
+}
+
+.requirement-button-group{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row: 3;
+    
+}
+
+.requirement-list{
+    margin-left: 10%;
+}
+
+.card-body{
+    grid-row: 2/3;
+    grid-column: 2;
+    font-size: 1.2em;
+}
+
+.requirement-component-list{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    
+}
+
+
+
+.apply-btn{
+    height: 50px;
+    border:none;
+    width:150px;
+    background-color: rgb(202, 202, 202);
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.apply-btn-link{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+.user-name{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1.4em;
+    
+    
+
+}
+
+.user-profile{
+    max-width: 250px;
+    grid-column: 1;
+    grid-row: 2/4;
+    padding-left: 15px;
+}
+.requirement-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: rgb(230, 230, 230);
+    border-left: 5px solid green;
+    
+
+}
+
+
+.apply-btn:hover{
+    background-color:rgb(120, 133, 117);
+    color: white;
+
+    border-top: 2px solid green;
+    border-left: 2px solid green;
+}
+

@@ -1,0 +1,32 @@
+.tag-cross{
+    background: transparent;
+    border: none;
+}
+
+.cross-icon{
+    color: black;
+}
+
+.tag{
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 2px;
+    background: white;
+}
+
+.tag-list{
+    display: flex;
+    flex-direction: horizontal;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: rgba(233, 232, 232, 0.623);
+    margin-top: 10px;
+    
+
+}
+
+.tag-input{
+    border: none;
+    background: white;
+    color: black;
+}

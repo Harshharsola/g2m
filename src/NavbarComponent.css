@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: rgb(230, 230, 230);
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-bottom:100px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top:50px;
+    z-index: 1;
+
+}
+
+.nav-item{
+    padding: 20px;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    position: absolute;
+    min-height: 250px;
+    min-width: 200px;
+    top: 55px;
+    left: 10px;
+}
+.down{
+    margin-left: 5px;
+    align-items: center;
+}

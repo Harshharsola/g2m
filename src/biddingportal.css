@@ -1,0 +1,74 @@
+.bidding-portal{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    text-align: center;
+    /* align-items: center; */
+    margin:auto;
+    padding-top: 15vh;
+    padding-bottom: 13vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    margin-top: 15vh;
+    box-shadow: 0 8px 16px 0 rgba(30, 27, 223, 0.2);
+    background: white;
+    
+}
+
+.name-field{
+    margin-bottom:3vh;
+}
+.contact-field{
+    margin-top:3vh;
+    margin-bottom:3vh;
+}
+.price-field{
+    margin-top:3vh;
+    margin-bottom:3vh;
+}
+.name-class{
+    background-color:white;
+    border:none;
+    border-bottom:2px solid black;
+    color: black;
+}
+.contact-detail{
+    background-color:white;
+    border:none;
+    border-bottom:2px solid black;
+    color: black;
+}
+.final-price{
+    background-color:white;
+    border:none;
+    border-bottom:2px solid black;
+    color: black;
+}
+.quotation-summary{
+    margin-top:3vh;
+    background-color:white;
+    border:none;
+    border-bottom:2px solid black;
+    width:100%;
+    color:black;
+    resize: vertical;
+}
+.summary-field{
+    margin-top:3vh;
+    
+}
+.submit{
+    margin-top:3vh;
+    background-color:rgba(79, 79, 243, 0.644);
+    height: 40px;
+    border:none;
+    color:black;
+    border-radius: 15%;
+    width:75px;
+}
+.submit-class{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top:10px;
+}

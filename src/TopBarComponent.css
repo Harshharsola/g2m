@@ -1,0 +1,113 @@
+.search-bar{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.s-icon{
+    position: relative;
+    left: 25px;
+    
+    
+}
+
+.search-input-box{
+    width: 75%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding-left: 30px;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid grey;
+    
+    
+}
+
+.search-btn{
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    width: 75px;
+}
+
+.search-btn:hover{
+    background-color: gray;
+    transition: background-color 0.2s;
+}
+
+.top-bar-component{
+    top:0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    position:fixed;
+    background-color: lightgray;
+    z-index: 1;
+    
+
+}
+
+.top-bar-left{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.top-bar-right{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cart-btn{
+    height: 40px;
+    margin-right: 5px;
+}
+
+.login-btn{
+    height: 40px;;
+}
+
+
+.login-btn-comp{
+    position: relative;
+}
+
+.login-dropdown-box{
+    position: absolute;
+    left: -70px;
+    top: -10px;
+    z-index:1;
+    
+}
+
+.card{
+
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    
+}
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.input-form{
+    border-radius: 15px;
+    padding: 10px;
+}

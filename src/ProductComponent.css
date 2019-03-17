@@ -1,0 +1,83 @@
+.product-card-header{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.product-name{
+    padding: 10px 0px;
+    font-weight: bold;
+}
+.product-card-header-image{
+    height: 125px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+.divider{
+    width: 90%;
+    margin: auto;
+    background: gray;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.original-price{
+    text-decoration: line-through;
+    padding: 15px;
+    color: lightgray;
+    font-size: 0.8em;
+    
+}
+
+
+.product-features{
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 5px;
+    
+    
+}
+
+
+
+.product-card{
+
+    
+    height: 400px;
+    width: 250px;
+    box-shadow: none;
+    background-color: white;
+    font-family: 'Dosis', sans-serif;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.product-card-footer{
+    width: 100%;
+}
+
+.product-component{
+    margin: 100px;
+    
+
+}
+
+.product-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.product-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.product-button-group{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}

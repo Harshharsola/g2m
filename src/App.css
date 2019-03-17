@@ -1,0 +1,27 @@
+
+.testcomponent{
+    
+    width: 100%;
+    flex-wrap: wrap;
+    
+    margin-top: 100px;
+}
+/* margin-left:auto; */
+.background{
+    background-color:rgba(124, 124, 124, 0.157);
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.inner-test{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 75%;
+    text-align: center;
+    overflow: hidden;
+    margin: 0px auto;
+}
+.bidding-portal{
+    text-align:center;
+}
