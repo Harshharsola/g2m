@@ -1,0 +1,45 @@
+.requirement{
+    display: flex;
+    box-shadow: 0 8px 16px 0 rgba(30, 27, 223, 0.2);
+    height:70%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+    /* margin:auto; */
+    background-color:white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    padding-left: auto;
+    align-items: center;
+}
+.add{
+    background-color:white;
+    color:black;
+    border: none;
+    width:20%;
+}
+.Product-Name{
+    border:none;
+    background-color: white;
+    border-bottom: 2px solid black;
+    color : black;
+    margin-right: 2vh;
+}
+.quantity{
+    border:none;
+    background-color: white;
+    border-bottom: 2px solid black;
+    color : black;
+}
+.inputGroup{
+    padding-top:1.5vh;
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+.Submit{
+    width:20%;
+
+}
